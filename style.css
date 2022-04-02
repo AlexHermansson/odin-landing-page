@@ -107,21 +107,17 @@ img {
 
 .vision-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .vision-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 500px;
-  width: 200px;
+  width: 250px;
+  height: auto;
   outline: 0.5px solid rgba(0, 0, 255, 0.281);
-  border-radius: 5px;
 }
 
 .vision-card img {
+  display: flex;
   width: 100%;
 }
 
