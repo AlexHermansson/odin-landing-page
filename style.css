@@ -1,10 +1,10 @@
-/* body * {
+ body * {
   outline: 0.5px solid black;
 }
 
 .hero * {
   outline: 0.5px solid white;
-} */
+}
 
 /* Hero styling */
 
@@ -29,7 +29,6 @@ body {
   display: flex;
   flex-flow: column wrap;
   justify-content: flex-start;
-  /* gap: 16px; */
 }
 
 .hero-main-text {
@@ -86,4 +85,47 @@ body {
 img {
   width: 50%;
   height: auto;
+}
+
+
+/* Vision */
+
+.vision {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 200px 100px 200px;
+}
+
+.vision-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.vision-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.vision-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 200px;
+  outline: 0.5px solid rgba(0, 0, 255, 0.281);
+  border-radius: 5px;
+}
+
+.vision-card img {
+  width: 100%;
+}
+
+.vision-card-text {
+  display: flex;
+  flex-wrap: wrap;
 }
