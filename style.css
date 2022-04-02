@@ -6,17 +6,23 @@
   outline: 0.5px solid white;
 }
 
+.hero,
+.vision,
+.inspiration,
+.footer {
+  padding: 0 200px 100px 200px;
+}
+
 /* Hero styling */
 
 body {
   font-family: 'Courier New', Courier, monospace;
-  margin: 0px;
+  margin: 0px; 
 }
 
 .hero {
   background-color: #1F2937;
   color: white;
-  padding: 0 200px 100px 200px;
 }
 
 .hero-text {
@@ -124,4 +130,23 @@ img {
 .vision-card-text {
   display: flex;
   flex-wrap: wrap;
+}
+
+/* Inspirational quotes */
+.inspiration {
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E7EB;
+  padding: 100px 400px;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 20px;
+}
+
+.quote-author {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bold;
 }
