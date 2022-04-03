@@ -1,11 +1,3 @@
- /* body * {
-  outline: 0.5px solid black;
-}
-
-.hero * {
-  outline: 0.5px solid white;
-} */
-
 .hero,
 .vision,
 .inspiration {
@@ -45,6 +37,11 @@ body {
   font-weight: 900;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .header-links ul {
   display: flex;
   list-style: none;
@@ -54,8 +51,6 @@ body {
 }
 
 .header-links a {
-  text-decoration: none;
-  color: white;
   font-size: 18px;
 }
 
@@ -205,11 +200,6 @@ img {
   display: flex;
   align-items: center;
   gap: 8px;
-}
-
-.footer a {
-  text-decoration: none;
-  color: white;
 }
 
 .footer a:hover{
